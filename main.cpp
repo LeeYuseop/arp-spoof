@@ -63,7 +63,7 @@ int main(int argc, char* argv[]) {
 	AttackInfo *attackTable;
 	attackTable = (AttackInfo *)malloc(sizeof(AttackInfo)*n);
 
-	time_t t1=time(NULL);
+	time_t t1=time(NULL)-10;
 	while(1){
 if(time(NULL)-t1 >= 10){
 t1 = time(NULL);
